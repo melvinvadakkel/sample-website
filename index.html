@@ -13,33 +13,39 @@
             background-color: brown;
             padding: 20px;
             margin: 10px;
+            border-radius: 10px;
+
+            display: flex;
+            justify-content: space-between;
+
         }
 
-        .box1{
+        .box2 {
             border-style: solid;
             border-width: 1px;
 
-        }
-        
-        .box2{
-            border-style: solid;
-            border-width: 1px;
-            margin-top: 30px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
         }
 
 
         .main {
-            height: 320px;
+            /* height: 320px; */
             background-color: rgb(65, 209, 209);
             padding: 30px;
             border-color: black;
             border-style: solid;
             margin-top: 40px;
             border-width: 1px;
+
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
-        .first {
-
+        .card {
             padding: 20px;
             background-color: white;
             border-radius: 10px;
@@ -47,17 +53,16 @@
             border-color: rgb(6, 6, 6);
             margin: 20px;
             border-width: 1px;
+            height: 300px;
+            width: 200px;    
+        }
+        .image {
+            height:150px;
+            width: 100%;
+
+            object-fit: cover;
         }
 
-        .second {
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            border-style: solid;
-            margin: 20px;
-            border-width: 1px
-
-        }
     </style>
 
 </head>
@@ -90,17 +95,60 @@
 
     <div class="main">
 
-        <div class="first">
+        <div class="card">
+            <img class="image" src="./images/th(1).jpeg" alt="image">
             <h2>asdas</h2>
             <h2>asdas</h2>
             <h2>asdas</h2>
         </div>
 
-        <div class="second">
+        <div class="card">
+            <img class="image" src="./images/th(2).jpeg" alt="image">
             <h2>asdas</h2>
             <h2>asdas</h2>
             <h2>asdas</h2>
         </div>
+
+        <div class="card">
+            <img class="image" src="./images/th(3).jpeg" alt="image">
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+        </div>
+
+        <div class="card">
+            <img class="image" src="./images/th(4).jpeg" alt="image">
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+        </div>
+
+        <div class="card">
+            <img class="image" src="./images/th.jpeg" alt="image">
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+        </div>
+
+        <div class="card">
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+        </div>
+
+        <div class="card">
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+        </div>
+
+        <div class="card">
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+            <h2>asdas</h2>
+        </div>
+
+       
 
     </div>
 
